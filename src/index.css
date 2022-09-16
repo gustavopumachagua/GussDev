@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body text-paragraph leading-6 bg-gray-200;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-white font-primary;
+  }
+  .LightSocial {
+    @apply hover:text-gray-600 text-xl text-LightRedes;
+  }
+  .DarkSocial {
+    @apply hover:text-gray-500 text-xl text-DarkRedes;
+  }
+  .section {
+    @apply py-12 lg:py-32;
+  }
+  .section-title {
+    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-4;
+  }
+  .subtitle {
+    @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
+  }
+  .btn {
+    @apply py-3 px-3 font-medium text-white flex items-center justify-center rounded-full  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-stone-600 duration-300 dark:hover:bg-DarkButton;
+  }
+  .btn-lg {
+    @apply h-[40px];
+  }
+  .btn-md {
+    @apply h-[48px];
+  }
+  .input {
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-accent;
+  }
+  .textarea {
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
+  }
+  .active {
+    @apply text-DarkMode;
+  }
+}
