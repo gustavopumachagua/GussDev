@@ -12,11 +12,10 @@ const Portfolio = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center  ">
           <h2 className="section-title before:content-portfolio relative before:absolute text-LightText dark:text-DarkText before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block">
-            Mi Lista de Proyectos
+            My Project List
           </h2>
           <p className="subtitle">
-            Algunos proyectos hechos con Reactjs, tailwindcss, HTML, CSS,
-            JavaScrit.
+            Some projects made with Reactjs, tailwindcss, HTML, CSS, javascript.
           </p>
         </div>
         <Projects />

@@ -10,6 +10,8 @@ import git from "../assets/skills/git.png";
 import tailwind from "../assets/skills/tailwind.png";
 import figma from "../assets/skills/figma.png";
 import node from "../assets/skills/node.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Skills = () => {
   const techs = [
@@ -84,10 +86,10 @@ const Skills = () => {
         <div>
           <p className="text-4xl font-bold  p-2  text-center">Skills</p>
           <p className="py-6">
-            Soy desarrollador Front-end con más de 2 años de experiencia en
-            desarrollo web, experiencia en Javascript, Reactjs. Me fascina el
-            desarrollo web, trabajando con libreria como Reactjs y el uso de
-            Framework como TailwindCSS.
+            I am a Front-end developer with more than 2 years of experience in
+            web development, experience in Javascript, Reactjs. I am fascinated
+            by web development, working with libraries like Reactjs and the use
+            of Framework like TailwindCSS.
           </p>
         </div>
 
@@ -97,7 +99,14 @@ const Skills = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <LazyLoadImage
+                width="100%"
+                height="100%"
+                effect="blur"
+                src={src}
+                alt="skills"
+                className="w-20 mx-auto"
+              />
               <p className="mt-4">{title}</p>
             </div>
           ))}

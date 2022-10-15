@@ -6,6 +6,8 @@ import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import DarkMode from "../components/DarkMode";
 import Socials from "./Socials";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -25,7 +27,13 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between ">
         {/* logo */}
         <figure>
-          <img src={Logo} alt="logo" />
+          <LazyLoadImage
+            width="100%"
+            height="100%"
+            effect="blur"
+            src={Logo}
+            alt="logo"
+          />
         </figure>
         {/* nav */}
         <div className="hidden xl:block">
