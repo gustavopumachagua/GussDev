@@ -7,8 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="xl:h-[110vh] flex items-center bg-LightBody dark:bg-DarkBody xl:bg-cover xl:bg-center xl:bg-no-repeat py-32 xl:py-0 overflow-hidden"
-    >
+      className="xl:h-[110vh] flex items-center bg-LightBody dark:bg-DarkBody xl:bg-cover xl:bg-center xl:bg-no-repeat py-32 xl:py-0 overflow-hidden">
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full flex-col md:flex-row xl:pb-12">
           <div className="flex-1 flex flex-col items-center xl:items-start xl:pb-6">
@@ -16,7 +15,7 @@ const Hero = () => {
               Hi, I'm Gustavo! ✌
             </p>
             <h1 className="hidden md:flex text-4xl text-LightText dark:text-DarkText leading-[44px] md:text-5xl md:leading-tight xl:text-7xl xl:leading-[1.2] font-bold md:tracking-[-2px] px-6 xl:px-18">
-              Web developer Frond-End.
+              Data Scientist.
             </h1>
             <p className="hidden md:flex pt-4 pb-8 md:py-2 xl:py-2 xl:ml-10 xl:pl-20 max-w-[480px] text-base text-center  text-LightText dark:text-DarkText px-6 ">
               I consider myself a fan of technology.
@@ -24,8 +23,7 @@ const Hero = () => {
             <a
               href={CV}
               download
-              className="btn btn-md bg-accent dark:bg-stone-700 md:btn-lg md:mt-5 xl:mt-4 xl:ml-64 "
-            >
+              className="btn btn-md bg-accent dark:bg-stone-700 md:btn-lg md:mt-5 xl:mt-4 xl:ml-64 ">
               Download CV
             </a>
           </div>
