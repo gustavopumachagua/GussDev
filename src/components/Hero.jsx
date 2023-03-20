@@ -15,7 +15,7 @@ const Hero = () => {
               Hi, I'm Gustavo! ✌
             </p>
             <h1 className="hidden md:flex text-4xl text-LightText dark:text-DarkText leading-[44px] md:text-5xl md:leading-tight xl:text-7xl xl:leading-[1.2] font-bold md:tracking-[-2px] px-6 xl:px-18">
-              Data Scientist.
+              Data Science
             </h1>
             <p className="hidden md:flex pt-4 pb-8 md:py-2 xl:py-2 xl:ml-10 xl:pl-20 max-w-[480px] text-base text-center  text-LightText dark:text-DarkText px-6 ">
               I consider myself a fan of technology.

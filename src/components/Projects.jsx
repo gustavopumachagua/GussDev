@@ -33,7 +33,7 @@ const Projects = () => {
     <div>
       {/* projects nav */}
       <nav className="mb-10 max-w-xl mx-auto">
-        <ul className="flex flex-col md:flex-row space-x-10 items-center text-LightText dark:text-DarkText">
+        <ul className="flex flex-col md:flex-row space-x-10 items-center text-LightText dark:text-DarkText justify-center">
           {projectsNav.map((item, index) => {
             return (
               <li
@@ -43,8 +43,7 @@ const Projects = () => {
                 className={`${
                   active === index ? "active" : ""
                 } cursor-pointer capitalize m-2 `}
-                key={index}
-              >
+                key={index}>
                 {item.name}
               </li>
             );

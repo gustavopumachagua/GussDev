@@ -37,7 +37,7 @@ const About = () => {
                 GussDev
               </h2>
               <p className="mb-4 text-LightText dark:text-DarkText text-center">
-                Data Scientist
+                Data Science
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8 text-LightText dark:text-DarkText text-center xl:px-20">

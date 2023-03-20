@@ -1,13 +1,13 @@
 import React from "react";
 
-import html from "../assets/skills/html.png";
-import css from "../assets/skills/css.png";
-import javascript from "../assets/skills/javascript.png";
-import reactImage from "../assets/skills/react.png";
+import excel from "../assets/skills/excel.png";
+import power_bi from "../assets/skills/PowerBI.jpg";
+import matplotlib from "../assets/skills/matplotlib.png";
+import numpy from "../assets/skills/numpy.png";
 import postgresql from "../assets/skills/postgresql.png";
 import pandas from "../assets/skills/pandas.png";
 import python from "../assets/skills/python.png";
-import tailwind from "../assets/skills/tailwind.png";
+import scikit_learn from "../assets/skills/scikit_learn.png";
 import tensorflow from "../assets/skills/tensorflow.png";
 import sql from "../assets/skills/sql.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -17,32 +17,32 @@ const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
+      src: excel,
+      title: "Excel",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
+      src: power_bi,
+      title: "Power BI",
       style: "shadow-blue-500",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
+      src: matplotlib,
+      title: "Matplotlib",
       style: "shadow-yellow-500",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
+      src: numpy,
+      title: "Numpy",
       style: "shadow-blue-600",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
+      src: scikit_learn,
+      title: "Scikit learn",
       style: "shadow-sky-400",
     },
     {
@@ -85,11 +85,9 @@ const Skills = () => {
         <div>
           <p className="text-4xl font-bold  p-2  text-center">Skills</p>
           <p className="py-6">
-            I am a Front-end developer and Data Scientist with more than 2 years
-            of experience in web development, experience in Paython, Pandas,
-            Javascript, Reactjs. I am fascinated by web development, working
-            with libraries like Reactjs and the use of Framework like
-            TailwindCSS.
+            I am a Data Science who is in charge of studying where the
+            information comes from, what it represents and how it can become a
+            valuable resource in the creation of businesses and strategies.
           </p>
         </div>
 

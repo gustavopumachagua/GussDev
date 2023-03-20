@@ -17,64 +17,18 @@ import Modal1 from "./components/modal/Modal1";
 import Modal2 from "./components/modal/Modal2";
 import Modal3 from "./components/modal/Modal3";
 import Modal4 from "./components/modal/Modal4";
-import Modal5 from "./components/modal/Modal5";
-import Modal6 from "./components/modal/Modal6";
-import Modal7 from "./components/modal/Modal7";
-import Modal8 from "./components/modal/Modal8";
-import Modal9 from "./components/modal/Modal9";
-import Modal10 from "./components/modal/Modal10";
-import Modal11 from "./components/modal/Modal11";
-import Modal12 from "./components/modal/Modal12";
-import Modal13 from "./components/modal/Modal13";
-import Modal14 from "./components/modal/Modal14";
-import Modal15 from "./components/modal/Modal15";
-import Modal16 from "./components/modal/Modal16";
-import Modal17 from "./components/modal/Modal17";
-import Modal18 from "./components/modal/Modal18";
-import Modal19 from "./components/modal/Modal19";
-import Modal20 from "./components/modal/Modal20";
-import Modal21 from "./components/modal/Modal21";
-import Modal22 from "./components/modal/Modal22";
-import Modal23 from "./components/modal/Modal23";
-import Modal24 from "./components/modal/Modal24";
-import Modal25 from "./components/modal/Modal25";
-import Modal26 from "./components/modal/Modal26";
 
 //modal imagen
-import ModalImg1 from "./assets/modal-img/api-rick-and-morty-1.png";
-import ModalImg2 from "./assets/modal-img/api-rick-and-morty-2.png";
-import ModalImg3 from "./assets/modal-img/api-rick-and-morty-3.png";
-import ModalImg4 from "./assets/modal-img/api-github.png";
-import ModalImg5 from "./assets/modal-img/sitio-web.png";
-import ModalImg6 from "./assets/modal-img/sitio_web.png";
-import ModalImg7 from "./assets/modal-img/7.jpg";
-import ModalImg8 from "./assets/modal-img/8.jpg";
-import ModalImg9 from "./assets/modal-img/9.jpg";
-import ModalImg10 from "./assets/modal-img/10.jpg";
-import ModalImg11 from "./assets/modal-img/11.jpg";
-import ModalImg12 from "./assets/modal-img/12.jpg";
-import ModalImg13 from "./assets/modal-img/13.jpg";
-import ModalImg14 from "./assets/modal-img/14.jpg";
-import ModalImg15 from "./assets/modal-img/15.jpg";
-import ModalImg16 from "./assets/modal-img/16.jpg";
-import ModalImg17 from "./assets/modal-img/17.jpg";
-import ModalImg18 from "./assets/modal-img/18.jpg";
-import ModalImg19 from "./assets/modal-img/19.jpg";
-import ModalImg20 from "./assets/modal-img/20.jpg";
-import ModalImg21 from "./assets/modal-img/21.jpg";
-import ModalImg22 from "./assets/modal-img/22.jpg";
-import ModalImg23 from "./assets/modal-img/23.jpg";
-import ModalImg24 from "./assets/modal-img/24.jpg";
-import ModalImg25 from "./assets/modal-img/25.png";
-import ModalImg26 from "./assets/modal-img/26.jpg";
+import ModalImg1 from "./assets/modal-img/terremoto.png";
+import ModalImg2 from "./assets/modal-img/monitores.png";
+import ModalImg3 from "./assets/modal-img/felicidad.jpg";
+import ModalImg4 from "./assets/modal-img/laptops.jpg";
 
 // projects images
-import Project1 from "./assets/projects/api-rick-and-morty-1.jpg";
-import Project2 from "./assets/projects/api-rick-and-morty-2.jpg";
-import Project3 from "./assets/projects/api-rick-and-morty-3.jpg";
-import Project4 from "./assets/projects/api-github.png";
-import Project5 from "./assets/projects/sitio-web.png";
-import Project6 from "./assets/projects/sitio_web.jpg";
+import Project1 from "./assets/projects/terremoto_logo.jpg";
+import Project2 from "./assets/projects/monitores_logo.png";
+import Project3 from "./assets/projects/felicidad_logo.webp";
+import Project4 from "./assets/projects/laptop_logo.png";
 
 // navigation
 export const navigation = [
@@ -127,550 +81,94 @@ export const social = [
 //projectsModal
 export const projectsModal1 = [
   {
-    name: "1 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-1",
+    name: "Analisis de Terremoto",
+    hrefReport: "https://github.com/gustavopumachagua/Analisis_de_Terremoto",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
+      "El Siguiente proyectos se basa de los datos de los terremotos desde 1900 hasta 2023. El proyecto de Data Science sobre el análisis de los terremotos tiene como objetivo utilizar técnicas de análisis de datos para estudiar la actividad sísmica en una región geográfica determinada. Para ello, se recopilará un conjunto de datos históricos de terremotos, que incluirá información sobre la fecha, la hora, la ubicación, la magnitud y otros factores relacionados con los terremotos.",
     modalimage: ModalImg1,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://api-rick-and-morty-1.vercel.app/",
+    hrefModal:
+      "https://nbviewer.org/github/gustavopumachagua/Analisis_de_Terremoto/blob/main/Estadisticas_graficos.ipynb",
   },
 ];
 
 export const projectsModal2 = [
   {
-    name: "2 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-2",
+    name: "Análisis de Monitores",
+    hrefReport:
+      "https://github.com/gustavopumachagua/Analisis_de_Monitores_Amazon",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
+      "El Siguiente proyectos se basa extraer los datos de la pagina web se Amazon por medio de Web Scraping. El procedimiento para la extracción de datos para un análisis de la página web de Amazon utilizando web scraping con Beautiful Soup en Python",
     modalimage: ModalImg2,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://api-rick-and-morty-2.vercel.app/",
+    hrefModal:
+      "https://nbviewer.org/github/gustavopumachagua/Analisis_de_Monitores_Amazon/blob/main/Estadisticas_Graficas.ipynb",
   },
 ];
 
 export const projectsModal3 = [
   {
-    name: "3 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-3",
+    name: "Análisis de Encuestas",
+    hrefReport: "https://github.com/gustavopumachagua/Analisis_Encuestas",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging.",
+      "El Siguiente proyectos se basa de los datos del Índice global de felicidad de 2015 - 2022. El índice mundial de la felicidad es una medida que se utiliza para evaluar el nivel de felicidad de los ciudadanos de diferentes países. Este índice se basa en una encuesta que se realiza cada año, en la que se pregunta a las personas sobre su percepción de la felicidad y bienestar en su vida.",
     modalimage: ModalImg3,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://api-rick-and-morty-3.vercel.app/",
+    hrefModal:
+      "https://nbviewer.org/github/gustavopumachagua/Analisis_Encuestas/blob/main/Estadistica_Graficas.ipynb",
   },
 ];
 
 export const projectsModal4 = [
   {
-    name: "API GitHub",
-    hrefReport: "https://github.com/gustavopumachagua/API-GITHUB",
+    name: "Analisis de Laptops",
+    hrefReport: "https://github.com/gustavopumachagua/Analisis_Laptops",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
+      "El Siguiente proyectos se basa extraer los datos de la pagina web se Amazon por medio de Web Scraping.El procedimiento para la extracción de datos para un análisis de la página web de Amazon utilizando web scraping con Beautiful Soup en Python",
     modalimage: ModalImg4,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://api-github-eta.vercel.app/",
+    hrefModal:
+      "https://nbviewer.org/github/gustavopumachagua/Analisis_Laptops/blob/main/Estadisticas_Graficas.ipynb",
   },
 ];
 
-export const projectsModal5 = [
-  {
-    name: "1 Portfolio",
-    hrefReport: "https://github.com/gustavopumachagua/GussDev",
-    description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
-    modalimage: ModalImg5,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://gussdev.vercel.app/",
-  },
-];
-
-export const projectsModal6 = [
-  {
-    name: "2 Portfolio",
-    hrefReport: "https://github.com/gustavopumachagua/sitio-web",
-    description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging.",
-    modalimage: ModalImg6,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://gusscode.vercel.app/",
-  },
-];
-
-export const projectsModal7 = [
-  {
-    name: "project name 7",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg7,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal8 = [
-  {
-    name: "project name 8",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg8,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal9 = [
-  {
-    name: "project name 9",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg9,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal10 = [
-  {
-    name: "project name 10",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg10,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal11 = [
-  {
-    name: "project name 11",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg11,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal12 = [
-  {
-    name: "project name 12",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg12,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal13 = [
-  {
-    name: "project name 13",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg13,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal14 = [
-  {
-    name: "project name 14",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg14,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal15 = [
-  {
-    name: "project name 15",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg15,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal16 = [
-  {
-    name: "project name 16",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg16,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal17 = [
-  {
-    name: "project name 17",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg17,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal18 = [
-  {
-    name: "project name 18",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg18,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal19 = [
-  {
-    name: "project name 19",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg19,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal20 = [
-  {
-    name: "project name 20",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg20,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal21 = [
-  {
-    name: "project name 21",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg21,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal22 = [
-  {
-    name: "project name 22",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg22,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal23 = [
-  {
-    name: "project name 23",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg23,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal24 = [
-  {
-    name: "project name 24",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg24,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal25 = [
-  {
-    name: "project name 25",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg25,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
-
-export const projectsModal26 = [
-  {
-    name: "project name 26",
-    hrefReport: "https://github.com/gustavopumachagua",
-    description:
-      "Veniam mollit ut consectetur esse et aute tempor magna eu cillum et nisi laboris. Amet excepteur occaecat in duis ipsum. Adipisicing culpa nostrud voluptate laborum deserunt. .",
-    modalimage: ModalImg26,
-    icon: <FiXCircle />,
-    iconModal: <GrDeploy />,
-    iconReport: <FiGithub />,
-    hrefModal: "https://www.instagram.com/guss.dev/",
-  },
-];
 // projects
 export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "1 Api Rick And Morty",
-    category: "Prediction",
+    name: "Analisis de Terremoto",
+    category: "Analysis",
     modal: <Modal1 />,
   },
   {
     id: "2",
     image: Project2,
-    name: "2 API Rick And Morty",
-    category: "Detection",
+    name: "Análisis de Monitores",
+    category: "Analysis",
     modal: <Modal2 />,
   },
   {
     id: "3",
     image: Project3,
-    name: "3 API Rick And Morty",
+    name: "Análisis de Encuestas",
     category: "Analysis",
     modal: <Modal3 />,
   },
   {
     id: "4",
     image: Project4,
-    name: "API GitHub",
-    category: "Detection",
+    name: "Analisis de Laptops",
+    category: "Analysis",
     modal: <Modal4 />,
-  },
-  {
-    id: "5",
-    image: Project5,
-    name: "1 Portfolio",
-    category: "Detection",
-    modal: <Modal5 />,
-  },
-  {
-    id: "6",
-    image: Project6,
-    name: "2 Portfolio",
-    category: "Detection",
-    modal: <Modal6 />,
-  },
-  {
-    id: "7",
-    image: Project6,
-    name: "project name 7",
-    category: "Detection",
-    modal: <Modal7 />,
-  },
-  {
-    id: "8",
-    image: Project6,
-    name: "project name 8",
-    category: "Detection",
-    modal: <Modal8 />,
-  },
-  {
-    id: "9",
-    image: Project6,
-    name: "project name 9",
-    category: "Detection",
-    modal: <Modal9 />,
-  },
-  {
-    id: "10",
-    image: Project6,
-    name: "project name 10",
-    category: "Detection",
-    modal: <Modal10 />,
-  },
-  {
-    id: "11",
-    image: Project6,
-    name: "project name 11",
-    category: "Detection",
-    modal: <Modal11 />,
-  },
-  {
-    id: "12",
-    image: Project6,
-    name: "project name 12",
-    category: "Detection",
-    modal: <Modal12 />,
-  },
-  {
-    id: "13",
-    image: Project6,
-    name: "project name 13",
-    category: "Detection",
-    modal: <Modal13 />,
-  },
-  {
-    id: "14",
-    image: Project6,
-    name: "project name 14",
-    category: "Detection",
-    modal: <Modal14 />,
-  },
-  {
-    id: "15",
-    image: Project6,
-    name: "project name 15",
-    category: "Detection",
-    modal: <Modal15 />,
-  },
-  {
-    id: "16",
-    image: Project6,
-    name: "project name 16",
-    category: "Detection",
-    modal: <Modal16 />,
-  },
-  {
-    id: "17",
-    image: Project6,
-    name: "project name 17",
-    category: "Detection",
-    modal: <Modal17 />,
-  },
-  {
-    id: "18",
-    image: Project6,
-    name: "project name 18",
-    category: "Detection",
-    modal: <Modal18 />,
-  },
-  {
-    id: "19",
-    image: Project6,
-    name: "project name 19",
-    category: "Detection",
-    modal: <Modal19 />,
-  },
-  {
-    id: "20",
-    image: Project6,
-    name: "project name 20",
-    category: "Detection",
-    modal: <Modal20 />,
-  },
-  {
-    id: "21",
-    image: Project6,
-    name: "project name 21",
-    category: "Detection",
-    modal: <Modal21 />,
-  },
-  {
-    id: "22",
-    image: Project6,
-    name: "project name 22",
-    category: "Detection",
-    modal: <Modal22 />,
-  },
-  {
-    id: "23",
-    image: Project6,
-    name: "project name 23",
-    category: "Detection",
-    modal: <Modal23 />,
-  },
-  {
-    id: "24",
-    image: Project6,
-    name: "project name 24",
-    category: "Detection",
-    modal: <Modal24 />,
-  },
-  {
-    id: "25",
-    image: Project6,
-    name: "project name 25",
-    category: "Detection",
-    modal: <Modal25 />,
-  },
-  {
-    id: "26",
-    image: Project6,
-    name: "project name 26",
-    category: "Detection",
-    modal: <Modal26 />,
   },
 ];
 
@@ -702,6 +200,6 @@ export const contact = [
     icon: <FiMapPin />,
     title: "Ubicame",
     subtitle: "Lima, Peru",
-    description: "2022",
+    description: "2023",
   },
 ];

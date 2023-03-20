@@ -18,8 +18,7 @@ const Footer = () => {
                 <a
                   className=" LightSocial dark:DarkSocial"
                   href={href}
-                  key={index}
-                >
+                  key={index}>
                   {icon}
                 </a>
               );
@@ -29,7 +28,7 @@ const Footer = () => {
             <img src={Logo} alt="logo" />
           </div>
           <p className="text-LightText dark:text-DarkText  font-semibold  text-[16px]">
-            &copy; 2022 GussDev. All rights reserved.
+            &copy; 2023 GussDev. All rights reserved.
           </p>
         </div>
       </div>
