@@ -7,14 +7,13 @@ const Contact = () => {
   return (
     <section
       className="section bg-LightBody dark:bg-DarkBody xl:h-[120vh] flex items-center xl:bg-cover xl:bg-center xl:bg-no-repeat py-32 xl:py-0 overflow-hidden"
-      id="contact"
-    >
+      id="contact">
       <div className="container mx-auto text-LightText dark:text-DarkText">
         <div className="flex flex-col items-center text-center">
           <h2 className="section-title before:content-contact relative before:absolute text-LightText dark:text-DarkText before:-top-7 before:-left-40 before:hidden before:lg:block">
-            Contact me
+            Contáctame
           </h2>
-          <p className="subtitle">You can contact me by different means:</p>
+          <p className="subtitle">Puedes contactarme por diferentes medios:</p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2 ">
@@ -60,15 +59,13 @@ const Contact = () => {
             />
             <textarea
               className="textarea text-white bg-LightText dark:bg-DarkButton"
-              placeholder="Message"
-            ></textarea>
+              placeholder="Message"></textarea>
             <a
               href="mailto:rpumachaguahuertas@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="btn w-44 mx-auto lg:mx-0 bg-accent hover:bg-secondary-hover"
-            >
-              Send Message
+              className="btn w-44 mx-auto lg:mx-0 bg-accent hover:bg-secondary-hover">
+              Enviar mensaje
             </a>
           </form>
         </div>

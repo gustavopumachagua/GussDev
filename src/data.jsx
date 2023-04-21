@@ -192,9 +192,9 @@ export const projectsNav = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: "Do you have any doubt?",
-    subtitle: "Can you write to me.",
-    description: "Send an Email rpumachaguahuertas@gmail.com",
+    title: "¿Tienes alguna duda?",
+    subtitle: "Puedes escribirme",
+    description: "Enviar un Email rpumachaguahuertas@gmail.com",
   },
   {
     icon: <FiMapPin />,

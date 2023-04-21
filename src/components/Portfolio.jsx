@@ -11,9 +11,12 @@ const Portfolio = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center  ">
           <h2 className="section-title before:content-portfolio relative before:absolute text-LightText dark:text-DarkText before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block">
-            My Project List
+            Mi lista de proyectos
           </h2>
-          <p className="subtitle">Some projects made with Python and Pandas.</p>
+          <p className="subtitle">
+            Algunos proyectos realizados con Python, Pandas, Scikit learn y
+            Matplotlib.
+          </p>
         </div>
         <Projects />
       </div>

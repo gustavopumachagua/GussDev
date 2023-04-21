@@ -83,11 +83,14 @@ const Skills = () => {
       className="xl:h-[100vh] flex items-center bg-LightBody dark:bg-DarkBody xl:bg-cover xl:bg-center xl:bg-no-repeat py-32 xl:py-0 overflow-hidden">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-LightText dark:text-DarkText">
         <div>
-          <p className="text-4xl font-bold  p-2  text-center">Skills</p>
+          <p className="text-4xl font-bold  p-2  text-center">
+            Tecnologías y Herramientas
+          </p>
           <p className="py-6">
-            I am a Data Science who is in charge of studying where the
-            information comes from, what it represents and how it can become a
-            valuable resource in the creation of businesses and strategies.
+            Conocimientos en matemáticas y estadística, Habilidades en lenguajes
+            de programación como Python, SQL, Capacidad para recopilar, limpiar,
+            transformar y visualizar datos, Habilidades en la construcción y
+            aplicación de modelos de aprendizaje automático.
           </p>
         </div>
 

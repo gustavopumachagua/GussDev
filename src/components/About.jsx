@@ -34,16 +34,16 @@ const About = () => {
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
               <h2 className="text-3xl text-LightText dark:text-DarkText lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block text-center">
-                GussDev
+                Acerca de mí
               </h2>
               <p className="mb-4 text-LightText dark:text-DarkText text-center">
-                Data Science
+                Lima-Perú
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8 text-LightText dark:text-DarkText text-center xl:px-20">
-                I live in Lima - Peru and I am passionate about programming. I
-                am a beginner in the programming universe, a bug hunter and the
-                more I learn and the more I get angry, the more I love it. ✌
+                Soy un Data Scientist con experiencia en la manipulación de
+                datos y la creación de modelos predictivos para resolver
+                problemas empresariales complejos. ✌
               </p>
             </div>
           </div>
