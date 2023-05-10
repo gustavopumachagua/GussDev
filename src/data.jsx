@@ -170,6 +170,55 @@ export const projectsData = [
     category: "Analysis",
     modal: <Modal4 />,
   },
+  {
+    id: "5",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
+  {
+    id: "6",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
+  {
+    id: "7",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
+  {
+    id: "8",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
+  {
+    id: "9",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
+  {
+    id: "10",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
+  {
+    id: "11",
+    image: Project4,
+    name: "Analisis de Laptops",
+    category: "Analysis",
+    modal: <Modal4 />,
+  },
 ];
 
 // projects

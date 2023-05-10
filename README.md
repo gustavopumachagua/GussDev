@@ -30,4 +30,4 @@ Your app is ready to be deployed!
 
 ## Demo
 
-![sitio-web](/src/assets/sitio_web.png)
+![sitio-web](./src/assets/sitio_web.png)
