@@ -17,19 +17,21 @@ import Modal1 from "./components/modal/Modal1";
 import Modal2 from "./components/modal/Modal2";
 import Modal3 from "./components/modal/Modal3";
 import Modal4 from "./components/modal/Modal4";
+import Modal5 from "./components/modal/Modal5";
 
 //modal imagen
 import ModalImg1 from "./assets/modal-img/terremoto.png";
 import ModalImg2 from "./assets/modal-img/monitores.png";
 import ModalImg3 from "./assets/modal-img/felicidad.jpg";
 import ModalImg4 from "./assets/modal-img/laptops.jpg";
+import ModalImg5 from "./assets/modal-img/terremotoP.jpg";
 
 // projects images
 import Project1 from "./assets/projects/terremoto_logo.jpg";
 import Project2 from "./assets/projects/monitores_logo.png";
 import Project3 from "./assets/projects/felicidad_logo.webp";
 import Project4 from "./assets/projects/laptop_logo.png";
-
+import Project5 from "./assets/projects/terremotoP_logo.png";
 // navigation
 export const navigation = [
   {
@@ -100,7 +102,7 @@ export const projectsModal2 = [
     hrefReport:
       "https://github.com/gustavopumachagua/Analisis_de_Monitores_Amazon",
     description:
-      "El Siguiente proyectos se basa extraer los datos de la pagina web se Amazon por medio de Web Scraping. El procedimiento para la extracción de datos para un análisis de la página web de Amazon utilizando web scraping con Beautiful Soup en Python",
+      "El Siguiente proyectos se basa extraer los datos de la pagina web se Amazon por medio de Web Scraping. El procedimiento para la extracción de datos para un análisis de la página web de Amazon utilizando web scraping con Beautiful Soup en Python.",
     modalimage: ModalImg2,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
@@ -130,13 +132,28 @@ export const projectsModal4 = [
     name: "Analisis de Laptops",
     hrefReport: "https://github.com/gustavopumachagua/Analisis_Laptops",
     description:
-      "El Siguiente proyectos se basa extraer los datos de la pagina web se Amazon por medio de Web Scraping.El procedimiento para la extracción de datos para un análisis de la página web de Amazon utilizando web scraping con Beautiful Soup en Python",
+      "El Siguiente proyectos se basa extraer los datos de la pagina web se Amazon por medio de Web Scraping.El procedimiento para la extracción de datos para un análisis de la página web de Amazon utilizando web scraping con Beautiful Soup en Python.",
     modalimage: ModalImg4,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
     hrefModal:
       "https://nbviewer.org/github/gustavopumachagua/Analisis_Laptops/blob/main/Estadisticas_Graficas.ipynb",
+  },
+];
+
+export const projectsModal5 = [
+  {
+    name: "Prediccion de Terremoto",
+    hrefReport: "https://github.com/gustavopumachagua/Prediccion_Terremotos",
+    description:
+      "El Siguiente proyectos se basa de los datos de los terremotos desde 1900 hasta 2023. El proyecto de Data Science sobre el análisis de los terremotos tiene como objetivo utilizar técnicas de análisis de datos para estudiar la actividad sísmica en una región geográfica determinada. Para ello, se recopilará un conjunto de datos históricos de terremotos, que incluirá información sobre la fecha, la hora, la ubicación, la magnitud y otros factores relacionados con los terremotos.",
+    modalimage: ModalImg5,
+    icon: <FiXCircle />,
+    iconModal: <GrDeploy />,
+    iconReport: <FiGithub />,
+    hrefModal:
+      "https://nbviewer.org/github/gustavopumachagua/Prediccion_Terremotos/blob/main/Estadisticas_graficos.ipynb",
   },
 ];
 
@@ -172,52 +189,10 @@ export const projectsData = [
   },
   {
     id: "5",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
-  },
-  {
-    id: "6",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
-  },
-  {
-    id: "7",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
-  },
-  {
-    id: "8",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
-  },
-  {
-    id: "9",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
-  },
-  {
-    id: "10",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
-  },
-  {
-    id: "11",
-    image: Project4,
-    name: "Analisis de Laptops",
-    category: "Analysis",
-    modal: <Modal4 />,
+    image: Project5,
+    name: "Prediccion de Terremoto",
+    category: "Prediction",
+    modal: <Modal5 />,
   },
 ];
 
