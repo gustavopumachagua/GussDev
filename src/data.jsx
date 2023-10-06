@@ -18,6 +18,9 @@ import Modal2 from "./components/modal/Modal2";
 import Modal3 from "./components/modal/Modal3";
 import Modal4 from "./components/modal/Modal4";
 import Modal5 from "./components/modal/Modal5";
+import Modal6 from "./components/modal/Modal6";
+import Modal7 from "./components/modal/Modal7";
+import Modal8 from "./components/modal/Modal8";
 
 //modal imagen
 import ModalImg1 from "./assets/modal-img/terremoto.png";
@@ -25,6 +28,9 @@ import ModalImg2 from "./assets/modal-img/monitores.png";
 import ModalImg3 from "./assets/modal-img/felicidad.jpg";
 import ModalImg4 from "./assets/modal-img/laptops.jpg";
 import ModalImg5 from "./assets/modal-img/terremotoP.jpg";
+import ModalImg6 from "./assets/modal-img/billboard.png";
+import ModalImg7 from "./assets/modal-img/terremotoA.jpg";
+import ModalImg8 from "./assets/modal-img/terremotoAA.jpg";
 
 // projects images
 import Project1 from "./assets/projects/terremoto_logo.jpg";
@@ -32,6 +38,9 @@ import Project2 from "./assets/projects/monitores_logo.png";
 import Project3 from "./assets/projects/felicidad_logo.webp";
 import Project4 from "./assets/projects/laptop_logo.png";
 import Project5 from "./assets/projects/terremotoP_logo.png";
+import Project6 from "./assets/projects/billboard_logo.png";
+import Project7 from "./assets/projects/terremotoA_logo.jpg";
+import Project8 from "./assets/projects/terremotoAA_logo.jpg";
 // navigation
 export const navigation = [
   {
@@ -157,6 +166,49 @@ export const projectsModal5 = [
   },
 ];
 
+export const projectsModal6 = [
+  {
+    name: "Analisis de Billboard",
+    hrefReport: "https://github.com/gustavopumachagua/Analisis_Billboard",
+    description:
+      "El Siguiente proyectos se basa de los datos de las listad de los Hot 100 Billboard desde 1965 hasta 2023. El Billboard Hot 100 es la lista de discos estándar de la industria musical en los Estados Unidos para canciones, publicada semanalmente por la revista Billboard. Las clasificaciones de las listas se basan en las ventas (físicas y digitales), la reproducción de radio y la transmisión en línea en los Estados Unidos.",
+    modalimage: ModalImg6,
+    icon: <FiXCircle />,
+    iconModal: <GrDeploy />,
+    iconReport: <FiGithub />,
+    hrefModal:
+      "https://nbviewer.org/github/gustavopumachagua/Analisis_Billboard/blob/main/Analisis_Datos.ipynb",
+  },
+];
+
+export const projectsModal7 = [
+  {
+    name: "App Analisis de Terremotos",
+    hrefReport: "https://github.com/gustavopumachagua/app_Terremotos",
+    description:
+      "El Siguiente proyectos se basa de los datos de los terremotos desde 1900 hasta 2023. El proyecto de Data Science sobre el análisis de los terremotos tiene como objetivo utilizar técnicas de análisis de datos para estudiar la actividad sísmica en una región geográfica determinada. Para ello, se recopilará un conjunto de datos históricos de terremotos, que incluirá información sobre la fecha, la hora, la ubicación, la magnitud y otros factores relacionados con los terremotos.",
+    modalimage: ModalImg7,
+    icon: <FiXCircle />,
+    iconModal: <GrDeploy />,
+    iconReport: <FiGithub />,
+    hrefModal: "https://app-terremotos.vercel.app/",
+  },
+];
+
+export const projectsModal8 = [
+  {
+    name: "App Prediccion de Terremotos",
+    hrefReport: "https://github.com/gustavopumachagua/app_predicciones",
+    description:
+      "El Siguiente proyectos se basa de los datos de los terremotos desde 1900 hasta 2023. El proyecto de Data Science sobre el análisis de los terremotos tiene como objetivo utilizar técnicas de análisis de datos para estudiar la actividad sísmica en una región geográfica determinada. Para ello, se recopilará un conjunto de datos históricos de terremotos, que incluirá información sobre la fecha, la hora, la ubicación, la magnitud y otros factores relacionados con los terremotos.",
+    modalimage: ModalImg8,
+    icon: <FiXCircle />,
+    iconModal: <GrDeploy />,
+    iconReport: <FiGithub />,
+    hrefModal: "https://app-predicciones.onrender.com/",
+  },
+];
+
 // projects
 export const projectsData = [
   {
@@ -194,6 +246,27 @@ export const projectsData = [
     category: "Prediction",
     modal: <Modal5 />,
   },
+  {
+    id: "6",
+    image: Project6,
+    name: "Analisis de Billboard",
+    category: "Analysis",
+    modal: <Modal6 />,
+  },
+  {
+    id: "7",
+    image: Project7,
+    name: "App Analisis de Terremotos",
+    category: "Application",
+    modal: <Modal7 />,
+  },
+  {
+    id: "8",
+    image: Project8,
+    name: "App de Terremotos",
+    category: "Application",
+    modal: <Modal8 />,
+  },
 ];
 
 // projects
@@ -205,7 +278,7 @@ export const projectsNav = [
     name: "Prediction",
   },
   {
-    name: "Detection",
+    name: "Application",
   },
   {
     name: "Analysis",
