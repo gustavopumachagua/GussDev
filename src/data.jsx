@@ -297,6 +297,6 @@ export const contact = [
     icon: <FiMapPin />,
     title: "Ubicame",
     subtitle: "Lima, Peru",
-    description: "2023",
+    description: "2024",
   },
 ];
