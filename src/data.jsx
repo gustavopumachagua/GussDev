@@ -1,11 +1,6 @@
 //  icons
-import {
-  FiTwitter,
-  FiGithub,
-  FiMail,
-  FiMapPin,
-  FiXCircle,
-} from "react-icons/fi";
+import { FiGithub, FiMail, FiMapPin, FiXCircle } from "react-icons/fi";
+import { SiCoursera } from "react-icons/si";
 // icons modal
 import { GrDeploy } from "react-icons/gr";
 // icons notion
@@ -68,9 +63,9 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiTwitter />,
-    href: "https://twitter.com/Gussdev",
-    alt: "twitter",
+    icon: <SiCoursera />,
+    href: "https://www.coursera.org/user/b44f9e277f7b4629b20076f77f2285bd",
+    alt: "coursera",
   },
   {
     icon: <SiNotion />,
