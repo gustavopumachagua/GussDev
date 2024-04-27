@@ -16,8 +16,11 @@ const Footer = () => {
               const { href, icon } = item;
               return (
                 <a
+                  target="_blank"
+                  rel="noreferrer"
                   className=" LightSocial dark:DarkSocial"
                   href={href}
+                  alt={item.alt}
                   key={index}>
                   {icon}
                 </a>

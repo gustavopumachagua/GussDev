@@ -64,7 +64,7 @@ export const navigation = [
 export const social = [
   {
     icon: <SiCoursera />,
-    href: "https://www.coursera.org/user/b44f9e277f7b4629b20076f77f2285bd",
+    href: "https://www.coursera.org/user/4b8bbe1b9d7daa6b574ef3d6e409c5e4",
     alt: "coursera",
   },
   {
